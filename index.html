@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box-1{
+            width: 100%;
+            height: 100px;
+            /* border: 2px solid black; */
+            background-color: rgb(228, 237, 237);
+        }
+        li{
+            display: inline;
+            margin-left: 10px;
+            padding: 5px;
+            font-size: 17px;
+           
+             
+        }
+        .bar{
+            border-right: 4px solid rgb(88, 244, 10);
+        }
+
+        .nav{
+            /* border: 1px solid black; */
+            height: 50px;
+            width: 640px;
+            margin-left: 825px;
+            margin-top: -90px;
+        }
+       #search{
+        width: 250px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 1050px;
+        margin-top: -5px;
+        border-color: rgb(11, 244, 11);
+       }
+       .icons{
+        margin-left: 1320px;
+        margin-top: -30px;
+       }
+
+       .services{
+        display: inline-block;
+       }
+       .item1{
+        height: 500px;
+        width: 300px;
+        margin-top: -505px;
+        margin-left: 350px;
+        text-align: center;
+       }
+       .para1{
+        width: 300px;
+        margin-top: -250px;
+        margin-left: 370px;
+        text-align: center;
+       }
+       .item2{
+        height: 500px;
+        width: 300px;
+        margin-top: -510px;
+        margin-left: 720px;
+       }
+       .para2{
+        width: 300px;
+        margin-top: -250px;
+        margin-left: 750px;
+        text-align: center;
+       }
+
+       .item3{
+        height: 500px;
+        width: 300px;
+        margin-top: -505px;
+        margin-left: 350px;
+        text-align: center;
+       }
+       .para3{
+        width: 300px;
+        margin-top: -250px;
+        margin-left: 370px;
+        text-align: center;
+       }
+
+       .item4{
+        height: 500px;
+        width: 300px;
+        margin-top: -455px;
+        margin-left: 720px;
+       }
+       .para4{
+        width: 300px;
+        margin-top: -250px;
+        margin-left: 750px;
+        text-align: center;
+       }
+
+       .item5{
+        height: 500px;
+        width: 300px;
+        margin-top: -416px;
+        margin-left: 1100px;
+       }
+       .para5{
+        width: 300px;
+        margin-top: -250px;
+        margin-left: 1120px;
+        text-align: center;
+       }
+
+       #slider {
+	overflow: hidden;
+    height: 450px;
+    width: 100%;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+    .aboutus{
+        width: 100%;
+        height: 180px;
+        margin-top: 50px;
+        background-color: green;
+        text-align: center;
+    }
+
+    .abt{
+        width: 700px;
+        margin: 20px auto;
+        color: white;
+    }
+
+    .btn1{
+        width: 90px;
+        height: 20px;
+        /* border: 1px solid black; */
+        padding: 10px;
+        border-radius: 20px;
+        background-color:  rgb(42, 180, 42);
+        margin: 10px auto;
+        margin-top: 40px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .review{
+        background-color: white;
+        margin: 50px auto;
+        width: 800px;
+        height: 300px;
+        text-align: center;
+    }
+    .customer1{
+        display: inline-block;
+        margin-top: 20px;
+    }
+    .customer2{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .customer3{
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    footer{
+        width: 100%;
+        background-color: black;
+        height: 250px;
+       }
+       .row{
+        color: white;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 40px;
+       }
+
+       .icons1{
+        margin-left: 1300px;
+        margin-top: -120px;
+       }
+
+       h3{
+        color: green;
+       }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <img height="70" width="300" style="margin-top: 10px; margin-left: 20px;" src="https://click2clean.in/assets/click2clean-logo.png" alt="">
+    <div class="nav">
+        <ul>
+            <li class="bar"><a href="">Home</a></li>
+            <li class="bar"><a href="./About.html">About us</a></li>
+            <li class="bar"><a href="./services.html">Our Services</a></li>
+            <li class="bar"><a href="./appointment.html">Book Appointment</a></li>
+            <li class=""><a href="./contact.html">Contacts Us</a></li>
+        </ul>
+    </div>
+    <form action="">
+        <select name="Places" id="search">
+            <option value=""></option>
+            <option value="Mysore">Mysore</option>
+            <option value="Bellary">Bellary</option>
+            <option value="Hubli">Hubli</option>
+            <option value="Hasan">Hasan</option>
+            <option value="Mandya">Madya</option>
+            <option value="Gadag">Gadag</option>
+            <option value="Koppal">Koppal</option>
+            <option value="Raichur">Raichur</option>
+            <option value="Yadgir">Yadgir</option>
+          </select>
+    </form>
+    <div class="icons">
+        <a href="https://www.facebook.com/click2clean.in/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"><img height="30" width="30" src="https://click2clean.in/assets/Facebook.svg" alt=""></a>
+        <a href="https://twitter.com/click2clean_aw?s=11&t=d_mslZ7X0sEdC4o5Xsg7eQ"><img height="30" width="30" src="https://click2clean.in/assets/Twitter.svg" alt=""></a>
+        <a href="https://www.instagram.com/click2clean.in/?igshid=YmMyMTA2M2Y"><img height="30" width="30" src="https://click2clean.in/assets/Instagram.svg" alt=""></a>
+        <a href="https://in.pinterest.com/clicktoclean3/"><img height="30" width="30" src="https://click2clean.in/assets/pininterest.svg" alt=""></a>
+    </div>
+    </div>
+    
+    <div id="slider">
+		<figure>
+			<img src="https://img.freepik.com/free-photo/closeup-waitress-disinfecting-tables-outdoor-cafe_637285-7996.jpg?size=626&ext=jpg&ga=GA1.1.1734700172.1703936671&semt=sph">
+			<img src="https://media.istockphoto.com/id/1293653159/photo/keeping-her-home-spotlessly-clean.jpg?s=1024x1024&w=is&k=20&c=kKs9OE1bu4DL1lzO_-1u4LW9RdzLfbcH4z2dj01k2sI=">
+			<img src="https://media.istockphoto.com/id/1328405375/photo/man-hand-in-rubber-gloves-washing-or-cleaning-induction-hob.jpg?s=612x612&w=0&k=20&c=cWsLH0u5teurUMi55xTDoGvA4Kjm7CDOKr-B65dXUjg=">
+			<img src="https://media.istockphoto.com/id/1367164554/photo/bearded-man-cleaning-home-table-surface-with-towel-and-gloves-disinfectant-spray-bottle.jpg?s=612x612&w=0&k=20&c=N2XHLr_cYjrRe1vVGbLP8hNy9YDy0Gy_xtYfvOid0e8=">
+			<img src="https://media.istockphoto.com/id/1214286105/photo/hands-disinfecting-door-handle.jpg?s=612x612&w=0&k=20&c=LfKy3Y-jJd0vY6x0SIHA-4XiS7d0VuC5cpgoXBw327E=">
+		</figure>
+	</div>
+
+
+    <div class="Services">
+        <h2 style="text-align: center; color: green;">Services</h2>
+        <img  height="500" width="300" style="margin-top: 20px; margin-left: 30px; border-radius: 10px;" src="https://img.freepik.com/free-photo/landscape-shot-small-rural-waterfall-spring-day_181624-24380.jpg?w=1060&t=st=1703936717~exp=1703937317~hmac=537f6fb3d403025fe34de79bb8100885c92bb0f3a8b04b3560eb7bf90ec45ecf" alt="">
+        <div class="item1">
+            <img height="250" width="350" src="https://click2clean.in/assets/Sewage%20Tank%20Cleaning_2@4x-100.jpg" alt="">
+        </div>
+        <div class="para1">
+            <h3>Sewage Tank Clearing & Cleaning</h3>
+            <p style="margin-left: 5px; text-align: justify;;">The service partners will use vacuum pumps and the vehicle-mounted tank to clear the septic tank. The vacuum pumps will suck the sludge and fill the vehicle-mounted tank. This sludge will be later taken away for prompt and proper disposal. Our service partners will clean the septic tank internally. The walls of the septic tank will be scraped and cleaned to make it sludge-free. The residue would be pumped out and treated with cleaning agents.</p>
+        </div>
+        <div class="item2">
+            <img height="250" width="350" style="display: inline-block;" src="https://click2clean.in/assets/Sewer%20&%20Drank%20Blockage%20Clearing@4x-100.jpg" alt="">
+        </div>
+        <div class="para2">
+            <h3>Sewer & Drain Blockage</h3>
+            <p>We offer blockage removing services for sewer and drain blockages. Our service partners
+                are well equipped to remove any sort of blockage that is troubling you.
+                This may be in any type/size of pipe.</p>
+        </div>
+
+        <img  height="500" width="300" style="margin-top: 120px; margin-left: 30px; border-radius: 10px;" src="https://img.freepik.com/free-photo/full-shot-people-cleaning-building_23-2150454543.jpg?w=360&t=st=1703942171~exp=1703942771~hmac=c6599bc83efc7c3c347494f9b037621b7bac95a7cb9eb44b0bc23efb7926d0ed" alt="">
+        <div class="item3">
+            <img height="250" width="350" src="https://click2clean.in/assets/House-Bathroom-Toilet-Kitchen_2@4x-100.jpg" alt="">
+        </div>
+        <div class="para3">
+            <h3>House / Bathroom / Kitchen</h3>
+            <p style="margin-left: 5px; text-align: justify;;">We provide specialized home deep cleaning services. You may opt for a single service
+                for your Bathroom / Kitchen / Living room or get a package for the entire house. Our experts will ensure
+                a no-disturbance service.
+                Our service partners will use the best tools and agents for an awesome experience.</p>
+        </div>
+        <div class="item4">
+            <img height="250" width="350" style="display: inline-block;" src="https://click2clean.in/assets/Pest%20Control_2@4x-100.jpg" alt="">
+        </div>
+        <div class="para4">
+            <h3>Pest Control</h3>
+            <p>Our service partners have the best equipment and amazing experience to carry out the
+                pest control service.
+                We offer eco-friendly options as pest control solutions. You may choose the type of solution which best fits your
+                choice.</p>
+        </div>
+
+        <div class="item5">
+            <img height="250" width="350" style="display: inline-block;" src="https://click2clean.in/assets/Sanitization_2@4x-100.jpg" alt="">
+        </div>
+        <div class="para5">
+            <h3>Sanitization</h3>
+            <p style="text-align: justify;">Since the outbreak of the Pandemic, sanitization has become an important need. This
+                service helps to maintain a healthy environment in a literal sense. It not only helps to keep the COVID 19 virus
+                away but also other harmful viruses and bacteria.
+                Disinfecting the workplace also sends a message to your employees that “You Care” about them.</p>
+        </div>
+    </div>
+
+    <div class="aboutus">
+        <div class="abt">
+            <h2 style="position: relative; top: 20px;">ABOUT US</h2>
+            <p style="position: relative; top: 20px;">Click2Clean is an aggregator platform that provides exceptional Waste management and Cleaning Services. We are one of India's first organizations to focus specifically on Hygiene & Sanitation services.</p>
+        </div>
+       
+        <div class="btn1" >
+            <a style="color: white;" href="./About.html">Read More</a>
+        </div>
+    </div>
+
+    <div class="review">
+        <h3>TESTIMONIALS</h3>
+        <div class="customer1">
+        <fieldset style="width: 200px; height: 250px; text-align: center; position: relative; top: -3px; border-radius: 20px; border-color: green;">
+        <p>I was thoroughly impressed with the level of professionalism and quality of work. The cleaners arrived on time and were very courteous. </p>
+        <div style="margin-top: 50px;"><p style="font-weight: bold; font-size: 18px;">Radhika Pardeshi</p>
+            <p>Customer</p></div>
+    </fieldset>
+</div>
+
+<div class="customer2">
+    <fieldset style="width: 200px; height: 250px; text-align: center; border-radius: 20px; border-color: green;">
+    <p>I particularly appreciated the flexibility of scheduling. This allowed me to choose a convenient time for the cleaners to come, which made the entire process even more stress-free. </p>
+    <div ><p style="font-weight: bold; font-size: 18px;">Chandan Gowda</p>
+    <p>Customer</p>
+</div>
+</fieldset>
+</div>
+
+<div class="customer3">
+    <fieldset style="width: 200px; height: 250px; text-align: center; position: relative; top: -5px; border-radius: 20px; border-color: green;">
+    <p>The company provided excellent customer service, promptly responding to any inquiries or concerns that I had both before and after the cleaning. </p>
+   <div style="margin-top: 30px;"><p style="font-weight: bold; font-size: 18px;">Armaan G</p>
+    <p>Customer</p></div> 
+</fieldset>
+</div>
+    </div>
+
+    <img width="100%" height="" src="./images/qr.png" alt="">
+
+    <footer>
+        <div class="row"><a href="https://www.antony-waste.com/" target="_blank" rel="noreferrer" class="link-active" style="font-size: 1.1rem; text-decoration: none; color: rgb(155, 200, 239);">Antony Waste Handling Cell Limited</a><p style="white-space: pre-line; line-height: 1.4; font-size: 0.9rem;"> CIN: L90001MH2001PLC130485
+    
+            Reg. and Corporate Office:  1402-1404, 14th Floor,
+          Dev Corpora Building, Opp. Cadbury Company,
+          Eastern Express Highway, Thane (West) – 400 601 </p>
+          <img height="50px" style="margin-top: -12px;" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAPoA+gMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYBAwQCB//aAAgBAQAAAACB5wAAAAzOQQAAAAAAAAAAAAAAAADOAAAAAb7xG1IAAAAb7x2IGpAAAAN157BA1IAAAC4TYIGpAAAA+j7AK9VQAAB6+kgKvXAAAA+j7AVitgAAAu8oFfqgAAAE/bAiaUAAABt+hbAo8YAAABZ7IHLQtYAAANl/6AiKZgAAAEtdQQtPwN8xAAAAtNiBG07nb7x2QNSAADN0lga67EXHsIGpAAB7u0kABA1IAAPd0lAAIGpAABm2TwAFFjgAATdr2gCs1oAABvtM1kCs1oAAAO2fmdx5rFdAAAAZ7enxwagAAAAAAAAAAAAAAAADOAAAAAb5aCAAAADf9E//xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oACgICEAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/EADAQAAIBAgQFAgUEAwEAAAAAAAECAwQFABExQBIgIzJCMGEQFCFBURNSYHGCg5Ky/9oACAEBAAE/AKqqlq5TJKd8rFWDKSCDmCMC/wBYAAUi/lIBOg39PTy1MqxRLmxxRUUNFEET6t5Pi62kTAzwDqeSb2np5amURRLmxxRUUVFFwJqe9/jdbUJs54B1PNN3BBJUyrFGM2OKKiioouBNT3vy3W1CfOeAdTzTdWOlEVMZz3y891tQnzngXqea7mFBFDFGNEQL6F6tyFHq4hkw7xt17l/v0bxc1kBpYDmnm+4hcSQxP+5FPPdrtnnTUzezvubPMJaCL8oSnNfKyaECBBkHXMvurBOEnkgPmOa8UvzFIWHfFm26hleCWOVNUYEYilSaJJE7XUEc11ovk6g8I6T/AFTdWGs1pXPunNW0iVkDxNrqp/BxLE8MjxyLkynIjcxSvDIkiHJlOYxS1CVUCTJ99fY811twq4+OMdZMEFSQQQRqNzaa/wCUm4XPSfXnulqFVnND9Jv/AHhlZWKsCCNQeWnp5amVYolzY4nsMscJeKXjcaps7LceMCll/wBfPX22GtGfZL9nxU0s9K/BKmXxp6eWplWKJc2OKKiioouBO497/C62oT5zwDqeabIEggg5EaHFruIq4+Bz1l55YopkKSoHU/Y4q7D5Ur/4PgW6tMywmBgxxRUUVFFwJ3Hvfkutq/WzngHU802UcjxOroxVlOYIxbrilbH+JhqvrXW1CYGeAdTzTZRyPE6yRsVZTmCMW65x1i8LZLN611tQnzngHU802SsysGUkEHMEYt14SbKKpOUn2f1rq8L10xh02dBeJKfKObN4sQzRTxiSJwyn07tdtaamb2d9rT1U9K/HDIVOKO9wTZJP0nwCCAQQQfQu121pqZvZ33FLX1VIelJ9P2nTFPfoHyE6FDiKognGcUqP/R5HdI1LSOqqPuxyxcrz+qpgpuzyfdgkHMHEdyr4uypkwL5cP3p/xhr1cWB62JZppm4pZGc/ljn/ACplZSVYEEHIg78U1SwBEEhB0IU4v4ArE94hvqYBqmAEAgyL8P/EABQRAQAAAAAAAAAAAAAAAAAAAID/2gAIAQIBAT8AAH//xAAUEQEAAAAAAAAAAAAAAAAAAACA/9oACAEDAQE/AAB//9k=" alt="">
+          <p style="margin-top: -40px; margin-left: 50px;">+91-22-42130300</p>
+        </div>
+        <div class="policy" style="display: inline-block; color: white; margin-left: 200px; position: relative; top: -40px;">
+            <h3>Privacy Policy</h3>
+            <h3>Cancelation Policy</h3>
+            <h3>Terms of Service</h3>
+        </div>
+       <a href="https://play.google.com/store/apps/details?id=com.click2clean.consumer"> <img style="position: relative; top: -50px; margin-left: 150px;" width="150" src="https://click2clean.in/assets/Google_Play.svg" alt=""></a>
+        <img style="position: relative; top: -50px; margin-left: 20px;" width="150" src="https://click2clean.in/assets/Apple.svg" alt="">
+    
+        <div class="icons1">
+            <a href="https://www.facebook.com/click2clean.in/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"><img height="30" width="30" src="https://click2clean.in/assets/Facebook.svg" alt=""></a>
+        <a href="https://twitter.com/click2clean_aw?s=11&t=d_mslZ7X0sEdC4o5Xsg7eQ"><img height="30" width="30" src="https://click2clean.in/assets/Twitter.svg" alt=""></a>
+        <a href="https://www.instagram.com/click2clean.in/?igshid=YmMyMTA2M2Y"><img height="30" width="30" src="https://click2clean.in/assets/Instagram.svg" alt=""></a>
+        <a href="https://in.pinterest.com/clicktoclean3/"><img height="30" width="30" src="https://click2clean.in/assets/pininterest.svg" alt=""></a> </div>
+    </footer> 
+</body>
+</html>
